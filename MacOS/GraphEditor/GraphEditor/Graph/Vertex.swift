@@ -1,29 +1,38 @@
 //
 //  Vertex.swift
-//  Graph
+//  ATEdgeWeightedDigraph
 //
-//  Created by Luis Gustavo Avelino de Lima Jacinto on 28/08/19.
-//  Copyright © 2019 Luis Gustavo Avelino de Lima Jacinto. All rights reserved.
+//  Created by Dejan on 28/07/2018.
+//  Copyright © 2018 agostini.tech. All rights reserved.
 //
 
 import Foundation
 
-struct Vertex<T: Hashable> {
-    var data: T
+class Vertex<Element: Equatable> {
+    var value: Element
+    private(set) var adjacentEdges: [DirectedEdge<Element>] = []
+    
+    init(_ value: Element) {
+        self.value = value
+    }
+    
+    func addEdge(_ edge: DirectedEdge<Element>) {
+        self.adjacentEdges.append(edge)
+    }
+    
+    func edgeForDestination(_ destination: Vertex<Element>) -> DirectedEdge<Element>? {
+        return adjacentEdges.filter { $0.destination == destination }.first
+    }
 }
 
-extension Vertex: Hashable {
-    public var hashValue: Int {
-        return "\(data)".hashValue
-    }
-
-    static public func ==(lhs: Vertex, rhs: Vertex) -> Bool {
-        return lhs.data == rhs.data
+extension Vertex: Equatable {
+    static func ==(lhs: Vertex, rhs: Vertex) -> Bool {
+        return lhs.value == rhs.value
     }
 }
 
 extension Vertex: CustomStringConvertible {
-    public var description: String {
-        return "\(data)"
+    var description: String {
+        return "\n[Vertex]: \(value) | [Adjacent Edges]: [\(adjacentEdges)]"
     }
 }

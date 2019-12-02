@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E41A348231AED5F0077AD24 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A344231AED5F0077AD24 /* Edge.swift */; };
-		6E41A349231AED5F0077AD24 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A345231AED5F0077AD24 /* AdjacencyList.swift */; };
-		6E41A34A231AED5F0077AD24 /* Graphable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A346231AED5F0077AD24 /* Graphable.swift */; };
-		6E41A34B231AED5F0077AD24 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A347231AED5F0077AD24 /* Vertex.swift */; };
-		6E41A354231B05230077AD24 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A353231B05230077AD24 /* Stack.swift */; };
+		6EC0415A2394259900194B94 /* BellmanFordShortestPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041502394259900194B94 /* BellmanFordShortestPath.swift */; };
+		6EC0415B2394259900194B94 /* EdgeWeightedDigraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041512394259900194B94 /* EdgeWeightedDigraph.swift */; };
+		6EC0415C2394259900194B94 /* ATQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041522394259900194B94 /* ATQueue.swift */; };
+		6EC0415D2394259900194B94 /* ATStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041532394259900194B94 /* ATStack.swift */; };
+		6EC0415E2394259900194B94 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041542394259900194B94 /* Destination.swift */; };
+		6EC0415F2394259900194B94 /* SimplePriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041552394259900194B94 /* SimplePriorityQueue.swift */; };
+		6EC041602394259900194B94 /* DijkstraShortestPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041562394259900194B94 /* DijkstraShortestPath.swift */; };
+		6EC041612394259900194B94 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041572394259900194B94 /* Vertex.swift */; };
+		6EC041622394259900194B94 /* DirectedEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041582394259900194B94 /* DirectedEdge.swift */; };
+		6EC041632394259900194B94 /* EdgeWeightedDirectedCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC041592394259900194B94 /* EdgeWeightedDirectedCycle.swift */; };
+		E2242B9E23307737002D4AE2 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2242B9D23307737002D4AE2 /* Scene.swift */; };
 		E2DF15FB231D6AC100D80DF5 /* EdgeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF15FA231D6AC100D80DF5 /* EdgeNode.swift */; };
 		E2EE344F231A0978005C393C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE344E231A0978005C393C /* AppDelegate.swift */; };
 		E2EE3455231A0978005C393C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE3454231A0978005C393C /* GameScene.swift */; };
@@ -19,15 +25,20 @@
 		E2EE3459231A097A005C393C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EE3458231A097A005C393C /* Assets.xcassets */; };
 		E2EE345C231A097A005C393C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2EE345A231A097A005C393C /* Main.storyboard */; };
 		E2EE3465231A96B5005C393C /* GraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE3464231A96B5005C393C /* GraphNode.swift */; };
-		E2EE3467231C9244005C393C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE3466231C9244005C393C /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E41A344231AED5F0077AD24 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
-		6E41A345231AED5F0077AD24 /* AdjacencyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
-		6E41A346231AED5F0077AD24 /* Graphable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphable.swift; sourceTree = "<group>"; };
-		6E41A347231AED5F0077AD24 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
-		6E41A353231B05230077AD24 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		6EC041502394259900194B94 /* BellmanFordShortestPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellmanFordShortestPath.swift; sourceTree = "<group>"; };
+		6EC041512394259900194B94 /* EdgeWeightedDigraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeWeightedDigraph.swift; sourceTree = "<group>"; };
+		6EC041522394259900194B94 /* ATQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATQueue.swift; sourceTree = "<group>"; };
+		6EC041532394259900194B94 /* ATStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATStack.swift; sourceTree = "<group>"; };
+		6EC041542394259900194B94 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		6EC041552394259900194B94 /* SimplePriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePriorityQueue.swift; sourceTree = "<group>"; };
+		6EC041562394259900194B94 /* DijkstraShortestPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraShortestPath.swift; sourceTree = "<group>"; };
+		6EC041572394259900194B94 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		6EC041582394259900194B94 /* DirectedEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectedEdge.swift; sourceTree = "<group>"; };
+		6EC041592394259900194B94 /* EdgeWeightedDirectedCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeWeightedDirectedCycle.swift; sourceTree = "<group>"; };
+		E2242B9D23307737002D4AE2 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		E2DF15FA231D6AC100D80DF5 /* EdgeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeNode.swift; sourceTree = "<group>"; };
 		E2EE344B231A0978005C393C /* GraphEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EE344E231A0978005C393C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +49,6 @@
 		E2EE345D231A097A005C393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2EE345E231A097A005C393C /* GraphEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GraphEditor.entitlements; sourceTree = "<group>"; };
 		E2EE3464231A96B5005C393C /* GraphNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphNode.swift; sourceTree = "<group>"; };
-		E2EE3466231C9244005C393C /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,18 +62,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E41A343231AED4A0077AD24 /* Graph */ = {
-			isa = PBXGroup;
-			children = (
-				6E41A352231B05160077AD24 /* AuxiliaryDataStructures */,
-				6E41A345231AED5F0077AD24 /* AdjacencyList.swift */,
-				6E41A344231AED5F0077AD24 /* Edge.swift */,
-				6E41A346231AED5F0077AD24 /* Graphable.swift */,
-				6E41A347231AED5F0077AD24 /* Vertex.swift */,
-			);
-			path = Graph;
-			sourceTree = "<group>";
-		};
 		6E41A34E231AF3FC0077AD24 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,13 +71,21 @@
 			path = Nodes;
 			sourceTree = "<group>";
 		};
-		6E41A352231B05160077AD24 /* AuxiliaryDataStructures */ = {
+		6EC0414F2394259900194B94 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
-				6E41A353231B05230077AD24 /* Stack.swift */,
-				E2EE3466231C9244005C393C /* Queue.swift */,
+				6EC041502394259900194B94 /* BellmanFordShortestPath.swift */,
+				6EC041512394259900194B94 /* EdgeWeightedDigraph.swift */,
+				6EC041522394259900194B94 /* ATQueue.swift */,
+				6EC041532394259900194B94 /* ATStack.swift */,
+				6EC041542394259900194B94 /* Destination.swift */,
+				6EC041552394259900194B94 /* SimplePriorityQueue.swift */,
+				6EC041562394259900194B94 /* DijkstraShortestPath.swift */,
+				6EC041572394259900194B94 /* Vertex.swift */,
+				6EC041582394259900194B94 /* DirectedEdge.swift */,
+				6EC041592394259900194B94 /* EdgeWeightedDirectedCycle.swift */,
 			);
-			path = AuxiliaryDataStructures;
+			path = Graph;
 			sourceTree = "<group>";
 		};
 		E2EE3442231A0978005C393C = {
@@ -101,8 +107,8 @@
 		E2EE344D231A0978005C393C /* GraphEditor */ = {
 			isa = PBXGroup;
 			children = (
+				6EC0414F2394259900194B94 /* Graph */,
 				6E41A34E231AF3FC0077AD24 /* Nodes */,
-				6E41A343231AED4A0077AD24 /* Graph */,
 				E2EE344E231A0978005C393C /* AppDelegate.swift */,
 				E2EE3454231A0978005C393C /* GameScene.swift */,
 				E2EE3456231A0978005C393C /* ViewController.swift */,
@@ -110,6 +116,7 @@
 				E2EE345A231A097A005C393C /* Main.storyboard */,
 				E2EE345D231A097A005C393C /* Info.plist */,
 				E2EE345E231A097A005C393C /* GraphEditor.entitlements */,
+				E2242B9D23307737002D4AE2 /* Scene.swift */,
 			);
 			path = GraphEditor;
 			sourceTree = "<group>";
@@ -184,17 +191,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E41A349231AED5F0077AD24 /* AdjacencyList.swift in Sources */,
-				6E41A354231B05230077AD24 /* Stack.swift in Sources */,
-				6E41A34A231AED5F0077AD24 /* Graphable.swift in Sources */,
 				E2DF15FB231D6AC100D80DF5 /* EdgeNode.swift in Sources */,
+				6EC0415B2394259900194B94 /* EdgeWeightedDigraph.swift in Sources */,
+				E2242B9E23307737002D4AE2 /* Scene.swift in Sources */,
 				E2EE3457231A0978005C393C /* ViewController.swift in Sources */,
+				6EC041632394259900194B94 /* EdgeWeightedDirectedCycle.swift in Sources */,
+				6EC0415C2394259900194B94 /* ATQueue.swift in Sources */,
+				6EC041622394259900194B94 /* DirectedEdge.swift in Sources */,
+				6EC041612394259900194B94 /* Vertex.swift in Sources */,
+				6EC041602394259900194B94 /* DijkstraShortestPath.swift in Sources */,
 				E2EE3455231A0978005C393C /* GameScene.swift in Sources */,
-				E2EE3467231C9244005C393C /* Queue.swift in Sources */,
+				6EC0415A2394259900194B94 /* BellmanFordShortestPath.swift in Sources */,
+				6EC0415D2394259900194B94 /* ATStack.swift in Sources */,
 				E2EE3465231A96B5005C393C /* GraphNode.swift in Sources */,
-				6E41A34B231AED5F0077AD24 /* Vertex.swift in Sources */,
-				6E41A348231AED5F0077AD24 /* Edge.swift in Sources */,
+				6EC0415F2394259900194B94 /* SimplePriorityQueue.swift in Sources */,
 				E2EE344F231A0978005C393C /* AppDelegate.swift in Sources */,
+				6EC0415E2394259900194B94 /* Destination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +344,7 @@
 				CODE_SIGN_ENTITLEMENTS = GraphEditor/GraphEditor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3FC5P297B6;
+				DEVELOPMENT_TEAM = 4EQ948BHF9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = GraphEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -353,7 +365,7 @@
 				CODE_SIGN_ENTITLEMENTS = GraphEditor/GraphEditor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 3FC5P297B6;
+				DEVELOPMENT_TEAM = 4EQ948BHF9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = GraphEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
